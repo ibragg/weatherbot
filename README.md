@@ -27,4 +27,4 @@ pyTelegramBotAPI, requests, также скопировав значения tok
 
 
 
-<img src="https://j.gifs.com/P7DOB4.gif" width="300" height="533,6" />
+<img src="https://j.gifs.com/P7DOB4.gif" width="250" height="444,6" />
