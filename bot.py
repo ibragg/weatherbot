@@ -3,8 +3,8 @@ import requests
 
 s_city = "Moscow"
 city_id = 524901
-appid = "0865cf34199bf3bcf2ba5b46d480d531"
-bot = telebot.TeleBot('1223196142:AAGqmyQGwD3jnIZWeTf2us1wgAjDia7FQMM')
+appid = "appid"  # appid находится в файле .gitignore, просто скопируйте и вставьте вместо слова appid
+bot = telebot.TeleBot('token')  # token находится в файле .gitignore, просто скопируйте и вставьте вместо слова token
 res = requests.get("http://api.openweathermap.org/data/2.5/weather",
                    params={'id': city_id, 'units': 'metric', 'lang': 'ru', 'APPID': appid})
 data = res.json()
